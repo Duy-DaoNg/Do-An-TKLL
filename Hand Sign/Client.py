@@ -75,6 +75,7 @@ while True:
     
 
     clientSocket.send(message.encode())
+    clientSocket.recv(1024)
     print('Signal was sent to Raspberry: ', message)
     if cv2.waitKey(1) & 0xFF == ord('q'):
           break
