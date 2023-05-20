@@ -1,0 +1,4 @@
+0 circle
+1 star
+2 triangle
+3 lightning
